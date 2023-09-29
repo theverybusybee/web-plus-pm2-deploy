@@ -13,10 +13,11 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && scp -Сr ./build/* theverybusybee@51.250.89.235:/home/theverybusybee/mesto-backend/frontend"
   },
   "eslintConfig": {
     "extends": [

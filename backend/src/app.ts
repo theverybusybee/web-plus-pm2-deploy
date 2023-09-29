@@ -15,6 +15,16 @@ mongoose.connect(DB_ADDRESS);
 
 // Только для локальных тестов. Не используйте это в продакшене
 // app.use(cors())
+
+const cors = require('cors');
+
+app.use(cors({
+  origin: [
+    'http:/domainname.theverybusybee.nomoredomainsrocks.ru',
+    'https://domainname.theverybusybee.nomoredomainsrocks.ru',
+  ],
+}));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
