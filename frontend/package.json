@@ -17,7 +17,7 @@
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-     "deploy": "npm run build && scp -Cr ./build/* theverybusybee@51.250.89.235:/home/theverybusybee/web-plus-pm2-deploy/frontend"
+    "deploy": "npm run build && scp -Cr ./build/* theverybusybee@51.250.89.235:/home/theverybusybee/web-plus-pm2-deploy/current/frontend"
   },
   "eslintConfig": {
     "extends": [
