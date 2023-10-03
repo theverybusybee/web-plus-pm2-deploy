@@ -1,3 +1,8 @@
 # Деплой приложения на сервер с использованием pm2
 
-Стартеркит проекта по автоматизации деплоя фронтенда и бэкенда при помощи pm2 (pm2 deploy)
+Деплой приложения "Mesto" помощи pm2 (pm2 deploy)
+
+IP адрес 51.250.89.235
+
+Frontend https://domainname.theverybusybee.nomoredomainsrocks.ru
+Backend https://api.domainname.theverybus.nomoredomainsrocks.ru
