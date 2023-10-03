@@ -20,7 +20,7 @@ const cors = require('cors');
 
 app.use(cors({
   origin: [
-    'http:/domainname.theverybusybee.nomoredomainsrocks.ru',
+    'http://domainname.theverybusybee.nomoredomainsrocks.ru',
     'https://domainname.theverybusybee.nomoredomainsrocks.ru',
   ],
 }));
