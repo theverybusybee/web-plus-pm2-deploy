@@ -4,7 +4,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
 import { errors } from 'celebrate';
-// import cors from 'cors';
+import cors from 'cors';
 import errorHandler from './middlewares/error-handler';
 import { DB_ADDRESS } from './config';
 import routes from './routes';
@@ -16,12 +16,10 @@ mongoose.connect(DB_ADDRESS);
 // Только для локальных тестов. Не используйте это в продакшене
 // app.use(cors())
 
-const cors = require('cors');
-
 app.use(cors({
   origin: [
-    'http://domainname.theverybusybee.nomoredomainsrocks.ru',
     'https://domainname.theverybusybee.nomoredomainsrocks.ru',
+    'http://domainname.theverybusybee.nomoredomainsrocks.ru',
   ],
 }));
 
