@@ -139,6 +139,6 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('https://api.domainname.theverybus.nomoredomainsrocks.ru');
+  const api = new Api('https://api.domainname.theverybusybee.nomoredomainsrocks.ru');
 
   export default api;
