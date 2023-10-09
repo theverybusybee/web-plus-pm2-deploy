@@ -5,4 +5,4 @@
 IP адрес 51.250.89.235
 
 Frontend https://domainname.theverybusybee.nomoredomainsrocks.ru
-Backend https://api.domainname.theverybus.nomoredomainsrocks.ru
+Backend https://api.domainname.theverybusybee.nomoredomainsrocks.ru
